@@ -1,0 +1,21 @@
+name: base-ds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10
+  - pip
+  - pandas
+  - scikit-learn
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - altair
+  - nltk
+  - gensim
+  - pip:
+    - networkx
+    - tqdm
+    - pydot
+    - graphviz
+    - yellowbrick
